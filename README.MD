@@ -21,24 +21,24 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 2. **Instala las dependencias:**
 
-Una vez dentro del directorio del proyecto, debes instalar todas las dependencias necesarias. Para ello, puedes usar uno de los siguientes comandos, dependiendo de si prefieres usar npm o yarn.
+    Una vez dentro del directorio del proyecto, debes instalar todas las dependencias necesarias. Para ello, puedes usar uno de los siguientes comandos, dependiendo de si prefieres usar npm o yarn.
 
-**Si usas npm : npm install**
+    **Si usas npm : npm install**
 
-**Si usas Yarn : yarn install**
+    **Si usas Yarn : yarn install**
 
 
 3. **Inicia el servidor de desarrollo:**
 
-Una vez que todo esté configurado, puedes iniciar el servidor de desarrollo para ver la aplicación en tu navegador.
+    Una vez que todo esté configurado, puedes iniciar el servidor de desarrollo para ver la aplicación en tu navegador.
 
-**Si usas npm : npm run dev**
+    **Si usas npm : npm run dev**
 
-**Si usas Yarn : yarn dev**
+    **Si usas Yarn : yarn dev**
 
-Esto iniciará el servidor de desarrollo y podrás acceder al proyecto en http://localhost:5173 (por defecto en Vite).
+    Esto iniciará el servidor de desarrollo y podrás acceder al proyecto en http://localhost:5173 (por defecto en Vite).
 
-3. **Configura la base de datos:**
+4. **Configura la base de datos:**
 
    1.**Abre XAMPP y asegúrate de que el servidor MySQL está       corriendo.**
 
@@ -60,7 +60,7 @@ Esto iniciará el servidor de desarrollo y podrás acceder al proyecto en http:/
    );
 
 
-4. **Configura el archivo de conexión db.js:**
+5. **Configura el archivo de conexión db.js:**
 
    ```bash
    const connection = mysql.createConnection({
@@ -71,24 +71,24 @@ Esto iniciará el servidor de desarrollo y podrás acceder al proyecto en http:/
    });
 
 
-5. **Inicia el servidor:**
+6. **Inicia el servidor:**
 
    node index.js
 
 
-**Endpoints Disponibles:**
+    **Endpoints Disponibles:**
 
 
-Método	Ruta	Descripción
+    Método	Ruta	Descripción
 
-GET	**/**	Verifica que el servidor está funcionando
+    GET	**/**	Verifica que el servidor está funcionando
 
-GET	**/lugares**	Obtiene todos los lugares
+    GET	**/lugares**	Obtiene todos los lugares
 
-GET	**/lugares/:id**	Obtiene un lugar por su ID
+    GET	**/lugares/:id**	Obtiene un lugar por su ID
 
-POST	**/lugares**	Crea un nuevo lugar
+    POST	**/lugares**	Crea un nuevo lugar
 
-PUT	**/lugares/:id**	Actualiza un lugar por su ID
+    PUT	**/lugares/:id**	Actualiza un lugar por su ID
 
-DELETE	**/lugares/:id**	Elimina un lugar por su ID
+    DELETE	**/lugares/:id**	Elimina un lugar por su ID
