@@ -16,7 +16,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/Backend-Turismo.git
+   git clone https://github.com/Mauri-Ramirez/Backend-Tursimo.git
    cd Backend-Turismo
 
 2. **Instala las dependencias:**
